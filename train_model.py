@@ -25,7 +25,7 @@ def main():
     pitches = pd.read_parquet(PITCH_FILE)
     batter_feat = pd.read_csv(BATTER_FEAT_FILE)
 
-    df = pitches.merge(batter_feat, on="batter", how="inner")
+    df = pitches.merge(batter_feat.drop(columns=["stand"], errors="ignore"), on="batter", how="inner")
     
     needed_cols = PITCH_LEVEL_FEATURES + CATEGORICAL_FEATURES + BATTER_FEATURES + [TARGET]
 

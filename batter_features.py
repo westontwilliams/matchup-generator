@@ -40,6 +40,8 @@ def main():
             continue
         feat = {"batter": batter_id, "n_pitches_season": n_pitches}
 
+        feat["stand"] = g["stand"].mode().iloc[0] if "stand" in g.columns else np.nan
+
         feat["avg_delta_run_exp"] = g["delta_run_exp"].mean()
 
         for fam in ["fastball", "breaking", "offspeed"]:
