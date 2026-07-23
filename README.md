@@ -5,7 +5,7 @@ Try it at http://matchup-generator.streamlit.app/
 
 ## Note
 
-Currently, this app is heavily limited by the lack of context for each individual pitch: i.e., each pitch is viewed in a vacuum based on the hitter, pitcher, and count, when in real life a pitch's effectives is heavily ties to how well it plays off other pitches. Adding this feature is a work in progress, with variables like previous pitch type, previous pitch location, times a specific pitch has been thrown in an AB, the pitch number of an AB, and how many times the pitcher has gone through the lineup set to be added.
+Currently, this app is heavily limited by the lack of context for each individual pitch: i.e., each pitch is viewed in a vacuum based on the hitter, pitcher, and count, when in real life a pitch's effectiveness is heavily tied to how well it plays off other pitches. Adding this feature is a work in progress, with variables like previous pitch type, previous pitch location, times a specific pitch has been thrown in an AB, the pitch number of an AB, and how many times the pitcher has gone through the lineup set to be added.
 
 ## Future Updates
 
