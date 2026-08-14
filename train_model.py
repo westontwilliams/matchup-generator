@@ -53,11 +53,6 @@ def main():
 
     print(f"\nModel MAE: {mae:.4f}  (baseline MAE predicting the mean: {baseline_mae:.4f})")
     print(f"Model R^2: {r2:.4f}")
-    print("(Per-pitch run value is inherently very noisy -- most of a pitch's")
-    print(" delta_run_exp is driven by outcome randomness, not predictable")
-    print(" pitch quality, so don't expect a high R^2 here. What matters is")
-    print(" whether the model beats the naive baseline and whether its")
-    print(" feature importances / rankings make baseball sense.)")
  
     importances = pd.Series(model.feature_importances_, index=feature_cols).sort_values(ascending=False)
     print("\nTop 15 feature importances:")
