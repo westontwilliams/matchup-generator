@@ -11,4 +11,4 @@ Currently, this app is heavily limited by the lack of context for each individua
 
 Best and Worst: Given a user-inputted batter, generate which pitchers' arsenals project to be most and least effective against him, and vice-versa
 
-Pitcher recommendations for multiple batters: Want to know which reliever to bring in? Which starter to throw in a winner-take-all playoff game? Select a lineup of hitters, filter the pitching team, and see who stacks up best.
+Pitcher recommendations for multiple batters: Allows the user to select a lineup of hitters, filter the pitching team, and see which pitcher matches up best
